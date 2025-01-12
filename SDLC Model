@@ -1,0 +1,19 @@
+Software Development Life Cycle (SDLC)
+SDLC, or software development life cycle, is a methodology that defines the entire procedure of software development step-by-step.
+SDLC is a structured process that is used to design, develop, and test good-quality software.
+
+Types of SDLC Models
+1.Waterfall Model
+-Linear and sequential model.
+-Each phase must be completed before moving to the next.
+-Suitable for projects with well-defined requirements.
+
+2.Agile Model
+-Iterative and incremental approach.
+-Promotes flexibility and continuous collaboration with stakeholders.
+-Ideal for projects requiring frequent updates and adaptability.
+
+3.DevOps Model
+-Integrates development and operations for continuous delivery.
+-Focuses on automation, collaboration, and monitoring.
+-Ideal for dynamic and fast-paced environments.
