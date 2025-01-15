@@ -1,0 +1,51 @@
+Linux (1991) is a open source community developed operationg system which based on UNIX.
+it can handel multiple users at same time. 
+Linux distributions:
+CentOS - Amazon Linux, Redhat, Fedora - yum is the default package manager
+Debian - Ubuntu - apt is the default package manager
+eg--->ubuntu,fedora etc..
+
+pwd--->display the current current directory
+echo--->version of linux
+sudo--->execute the commads having superuser privileges
+ls--->Displays files and folders in the current directory.
+ls-l  ---->Shows a detailed listing, including permissions, ownership, and file size.
+ls-lrt --->Lists files and directories sorted by modification time, with the oldest first, in a detailed format.
+(-l: Displays detailed information (permissions, size, etc.).
+-r: Reverses the order of the listing.
+-t: Sorts by modification time)
+vi--->Opens the vi text editor to view or edit a file.
+(i: Enter insert mode to edit the file.
+Esc: Exit insert mode.
+:w: Save the file.
+:q: Quit the editor.
+:wq: Save and quit.
+:q!: Quit without saving.)
+touch--->Creates an empty file--->(touch file.txt)
+cd---> Changes the current directory.
+cd .. --->Moves to the parent directory.
+date--->Displays the current system date and time.
+to display in a format---->date +"%Y-%m-%d"
+time--->Measures the time taken to execute a command.
+uptime--->Displays the system uptime, the number of users, and the load average.
+/---> Refers to the root directory of the Linux file system. It is the starting point of the entire file system hierarchy.
+clear--->clear the screen
+cat--->Displays the contents of a file.
+less--->Allows you to view the contents of a file one screen at a time, with the ability to scroll up and down.
+(Press Space to scroll down.
+Press b to scroll up.
+Press q to quit.)
+grep--->Searches for a specific pattern in files.-->(grep "error" log.txt)
+sort--->Sorts the lines of a file or input in ascending order by default.
+(-n for sort numerically, -r to sort reverse order)
+mv--->Moves or renames files or directories.--->(mv old_name.txt new_name.txt)
+cp--->Copies files or directories--->(cp file1.txt file2.txt)
+rm--->Removes files or directories. Be cautious as this command permanently deletes files.
+mkdir--->creates anew directory
+rmdir--->remove a directory
+chmod---> change the access permissions of files and directories.
+top---->Monitors real-time system processes and resource usage.
+ps--->Displays running processes.
+df---->Shows disk space usage.
+find--->Searches for files and directories.--->(find /home -name "*.txt"
+)
