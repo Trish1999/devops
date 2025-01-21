@@ -1,13 +1,13 @@
 apt update -y
-Updates the package index for the system, ensuring it has the latest information about available packages.
+//Updates the package index for the system, ensuring it has the latest information about available packages.
 
 clear
-Clears the terminal screen for better readability.
+//Clears the terminal screen for better readability.
 
 git version
 Displays the installed version of Git.
 
-**git clone https://github.com/raushan8586/repo-demo.git
+git clone https://github.com/raushan8586/repo-demo.git
 Clones a remote repository (repo-demo) into your local machine.
     5  ls -l
     6  cd repo-demo/
