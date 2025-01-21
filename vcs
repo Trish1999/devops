@@ -5,6 +5,9 @@ type of version controll system
 1.Centralized version control systems (CVCS)
 Store all file versions on a single server. Developers can borrow files, make changes, and return them to the server.
 example---->svn(subversion) and CVS(Concurrent Versions System)
+Drawbacks of CVCS:
+1. internet connection all the time.
+2. multiple developers cann't work on same file simultaneously
 
 2.Distributed version control systems (DVCS)
 Allow each developer to have their own local copy of the project's codebase. This allows developers to work offline and experiment with new features.
