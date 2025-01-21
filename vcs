@@ -1,0 +1,18 @@
+VCS--->version controll system
+VCS is a software tool that tracks changes to files over time. It allows developers to collaborate on projects, revert to earlier versions, and experiment with new features.
+
+type of version controll system
+1.Centralized version control systems (CVCS)
+Store all file versions on a single server. Developers can borrow files, make changes, and return them to the server.
+example---->svn(subversion) and CVS(Concurrent Versions System)
+
+2.Distributed version control systems (DVCS)
+Allow each developer to have their own local copy of the project's codebase. This allows developers to work offline and experiment with new features.
+In DVCS there is also a master branch or central version.
+example--->git and mericurial
+
+Benefits
+Collaboration: Developers can work together on projects. 
+Reverting changes: Developers can return to earlier versions of a file. 
+Experimentation: Developers can try out new features without affecting the main codebase.
+
