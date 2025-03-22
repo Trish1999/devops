@@ -1,0 +1,5 @@
+Docker is a popular open-source platform that acts as a container engine,
+enabling developers to package applications and their dependencies into containers for consistent and portable deployment.
+(A container engine is the software that manages and runs containers, providing the necessary runtime environment)
+
+Docker makes it easy to build and run distributed microservices architecures, deploy your code with standardized continuous integration and delivery pipelines, build highly-scalable data processing systems, and create fully-managed platforms for your developers.
