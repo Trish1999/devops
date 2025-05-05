@@ -1,4 +1,10 @@
+Virtualization
+---------------
 Virtualization is a technology that creates virtual versions of computer resources such as hardware platforms, operating systems, storage devices, and network resources.
 Virtualization allows you to split that computer into several virtual machines (VMs), each acting like a separate computer with its operating system and applications.
 Each virtual machine is isolated from the others, meaning issues in one virtual machine won’t affect others. 
 
+Containerization
+-------------------
+Containerization is a lightweight form of virtualization that allows you to run applications and their dependencies in isolated containers.
+Containers provide process isolation, ensuring that applications running in one container do not affect applications running in other containers.
