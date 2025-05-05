@@ -1,0 +1,28 @@
+monolathic vs microservices
+
+monolathic
+-------------
+Monolithic architecture refers to a single unified codebase where all components of an application are interconnected and interdependent. 
+In this model, the entire application is built as one unit, making it easier to develop and deploy initially.
+
+Single Codebase: All application components reside within a single codebase, simplifying development and deployment.
+Tightly Coupled: Components are highly interconnected, making changes to one part of the application potentially affect others.
+Easier to Test: Integrated testing can be straightforward, as everything is in one place.
+Simpler Deployment: A single deployment process is required, reducing complexity.
+
+Microservices
+-----------------
+Microservices architecture where an application is broken down into smaller, independently deployable services.
+Each microservice focuses on a specific business capability and communicates with others via APIs.
+
+Highly Decoupled: Microservices are designed to function independently, allowing for isolated development and deployment.
+Focused Functionality: Each microservice serves a specific business capability, enabling teams to work on different features simultaneously.
+Polyglot Persistence: Different microservices can use different databases and technologies, allowing for flexibility in design.
+Continuous Delivery: Microservices can be deployed independently, enabling faster updates and continuous integration.
+
+What is MVC Architecture?
+MVC, on the other hand, takes a more streamlined approach. It separates the application into three key components:
+
+Model: The data powerhouse, responsible for managing the application's data and business logic.
+View: The visual story teller, presenting the data to the user in a user-friendly format.
+Controller: The bridge between the two, handling user interactions and updating the model accordingly.
