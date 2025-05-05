@@ -3,3 +3,28 @@ enabling developers to package applications and their dependencies into containe
 (A container engine is the software that manages and runs containers, providing the necessary runtime environment)
 
 Docker makes it easy to build and run distributed microservices architecures, deploy your code with standardized continuous integration and delivery pipelines, build highly-scalable data processing systems, and create fully-managed platforms for your developers.
+
+What is a Docker container?
+Containers are lightweight, standalone units containing all the code and libraries needed to run an application. 
+
+What is a Docker engine?
+The Docker engine is the core of the Docker platform. It manages containers, including their creation, running and shipping and the entire lifecycle.
+
+The 3 fundamental components of the Docker engine
+The Docker engine consists of three (3) fundamental components, including the Docker daemon, Docker API and Docker client.
+
+Docker daemon
+Docker daemon is a fundamental Docker component. It is a background process that listens to requests from the Docker client and manages the creation and running of Docker containers.
+Image management: The Docker daemon manages images, including pulling and caching images.
+Volume management: It ensures data is saved when containers are deleted.
+Network management: The Docker daemon manages communication between containers and the outside world.
+
+Docker API
+The Docker API is a programmatic interface that communicates with the Docker daemon.
+With the Docker API, you can tell the Docker daemon to perform tasks like starting, stopping and deleting containers or downloading or uploading Docker images.
+Docker API makes networks and volumes possible and manages user permissions and access.
+
+Docker client
+This is the primary mode of communicating with the Docker daemon. 
+The Docker client is a command line interface (CLI) developers use to interact with the Docker daemon from their computers.
+ When a user uses a command such as a docker run, the Docker client sends this request to the Docker daemon.
