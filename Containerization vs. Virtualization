@@ -1,0 +1,4 @@
+Virtualization is a technology that creates virtual versions of computer resources such as hardware platforms, operating systems, storage devices, and network resources.
+Virtualization allows you to split that computer into several virtual machines (VMs), each acting like a separate computer with its operating system and applications.
+Each virtual machine is isolated from the others, meaning issues in one virtual machine won’t affect others. 
+
