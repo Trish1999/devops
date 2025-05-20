@@ -33,7 +33,7 @@ here:
 -t: allocates a pseudo-TTY(terminal)
 -d: detached mode 
 
-$ docker run -itd -p 82:80 httpd
+$ docker run -itd --name trishna -p 82:80 httpd
 Runs the container and maps host port 82 to container port 80 .
 -p 82:80 → This is the port mapping.
 82: Port on your host machine (outside the container).
