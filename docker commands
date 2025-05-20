@@ -1,0 +1,51 @@
+Installation and Setu
+-------------------------------
+$ sudo apt-get update-----Updates the list of available packages and versions from repositories.
+Always run this before installing new software to ensure you're getting the latest version.
+
+$ sudo apt install docker.io----Installs Docker 
+
+$ docker version-----Shows the installed Docker version.
+
+$ sudo systemctl status docker----Displays the current status of the Docker service (active, inactive)
+
+$ sudo systemctl enable docker-----Enables Docker to start automatically on system boot.
+
+$ sudo systemctl start docker------Starts the Docker service manually if it’s not running.
+
+Working with Docker Images and Containers
+---------------------------------------------
+$ sudo chown $USER /var/run/docker.sock----Gives the current user ownership of the Docker socket so you can run docker commands without sudo.
+  
+$ docker images-----Lists all Docker images available locally on your machine.
+  
+$ docker pull httpd----Downloads the official Apache HTTP server (httpd) image from Docker Hub.
+
+$ docker network ls-----Lists all Docker networks used for container communication.
+
+$ docker inspect httpd------Shows low-level configuration details of the httpd image (JSON format).
+
+Running and Accessing Containers
+---------------------------------
+$ docker run -itd httpd-------Runs a new httpd container:
+here:
+-i: interactive mode
+-t: allocates a pseudo-TTY(terminal)
+-d: detached mode 
+
+$ docker run -itd -p 82:80 httpd
+Runs the container and maps host port 82 to container port 80 .
+-p 82:80 → This is the port mapping.
+82: Port on your host machine (outside the container).
+80: Port inside the container (used by Apache HTTP Server).
+Why use this?
+Apache in the container listens on port 80, but if you mapped it directly (like -p 80:80), you'd need root privileges and might conflict with other services.
+So, using a different host port like 82 allows safe access.
+
+$ docker ps------Lists all running Docker containers.
+
+$ docker exec -it <id> /bin/bash----Executes an interactive Bash shell inside the running container with the specified <id>.
+
+$ cd htdocs/----Navigates into the htdocs directory.
+
+
